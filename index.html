@@ -1,40 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>reveal.js</title>
+    <title>중간 보고서 발표 준비</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <!-- <link rel="stylesheet" href="dist/theme/black.css"> -->
+    <link rel="stylesheet" href="dist/theme/white.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-auto-animate>
+          <img src="./assets/commits.png" />
+          <h1>OpenSource</h1>
+        </section>
+        <section data-auto-animate>
+          <h1>OpenSource</h1>
+          <h1>Contribution</h1>
+        </section>
+        <section>
+          <section data-auto-animate>
+            <h2>목차</h2>
+          </section>
+          <section data-auto-animate>
+            <h2>목차</h2>
+            <div>그런 거 없구요</div>
+          </section>
+          <section data-auto-animate>
+            <h2>목차</h2>
+            <div>그냥 들어주세요, 저도 뭐 해야할지 모르겠어요</div>
+          </section>
+          <section data-auto-animate>
+            <div>시작하겠습니다~</div>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>Q :</h2>
+            대회에 참여한 이유는?
+          </section>
+          <section>
+            <h2>A :</h2>
+            새로운 경험을 하고 싶었습니다.
+          </section>
+          <section>
+            2023.08.26 기준, mdn/translated-content에 기여한 결과
+            <img src="./assets/prs.png" />
+            <div>16개 merge되었습니다(5개 closed).</div>
+          </section>
+          <section>
+            <div>오픈소스 생태계에 기여한다는 것</div>
+            <div>쉽지 않은 부분이 많습니다</div>
+          </section>
+          <section data-auto-animate>
+            <h2>????</h2>
+            <pre>
+				<code data-line-numbers="3,8-10">
+					<table>
+						<tr>
+							<td>Apples</td>
+							<td>$1</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>Oranges</td>
+							<td>$2</td>
+							<td>18</td>
+						</tr>
+					</table>
+				</code>
+			</pre>
+          </section>
+          <section data-auto-animate>
+            <h2>????</h2>
+			정말 파악하기 힘들고 
+            <pre>
+				<code data-line-numbers="3,8-10">
+					<table>
+						<tr>
+							<td>Apples</td>
+							<td>$1</td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td>Oranges</td>
+							<td>$2</td>
+							<td>18</td>
+						</tr>
+					</table>
+				</code>
+			</pre>
+            mdn에 번역을 하려면, 특히 웹 기술에 대한 전반적인 지식이 있어야
+            한다는 점을 알게 되었습니다.
+          </section>
+        </section>
+        <section>
+          <section data-auto-animate>
+            <img src="./assets/web-service-architecture.png" />
+            <div>Web Service란 무엇일까요?</div>
+          </section>
+          <section data-auto-animate>
+            <img src="./assets/web-service-architecture.png" />
+            <div>정말 많은 컴포넌트들의 모임</div>
+          </section>
+          <section>
+            <img src="./assets/web-service-architecture.png" />
+            <div>web server, client, infra, network.</div>
+          </section>
+          <section>
+            <div>하나를 깊게 알기도 어려운 상황에서</div>
+            <div>
+              네트워크, 프론트엔드, 백엔드, 인프라 등 정말 많은 기술들이 준비가
+              되어야 하는 부분이라고 생각합니다.
+            </div>
+          </section>
+          <section>
+            <img src="./assets/web-service-architecture.png" />
+            <div>이 그림을 더욱 자세히 볼 필요가 있습니다.</div>
+          </section>
+          <section>
+            <img src="./assets/client_tech.png" />
+            <div>웹 프론트 화면을 구성하는 데 기반이 되는 기술 3가지.</div>
+            <div>React, Vue, Angular, Svelte와 같은 다양한 도구들이 등장</div>
+          </section>
+          <section>
+            <div>번역을 하면서, 스스로 이해되지 않는 부분에 대해서</div>
+            <div>
+              서적이나 공식문서를 다양하게 참고하게 되는 효과가 있었습니다.
+            </div>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				번역중에 박스 바꾸어보고 싶어서 mdn/yari에 issue 도전 
+				[mdn/yari](https://github.com/mdn/yari/pull/9443)
+				---
+				직접 React 컴포넌트 만들고 수정했던 좋은 경험 
+				```javascript
+					import React from "react";
+					import { Doc } from "../../../libs/types/document";
+					import { useTranslation } from "react-i18next";
+					import i18n from "./locales/i18n";
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+					export function OnGitHubLink({ doc }: { doc: Doc }) {
+					const { t } = useTranslation();
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+					React.useEffect(() => {
+						i18n.changeLanguage(doc.locale);
+					}, [doc]);
+				```
+			</textarea
+            >
+          </section>
+        </section>
+        <section>
+          <section>
+            <div>질문은 안 받을 겁니다</div>
+          </section>
+          <section data-markdown>
+            <textarea data-template>
+				## Github
+				[link](https://github.com/IMHOJEONG).
+				## naver
+				[link](39ghwjd@naver.com).
+			</textarea
+            >
+          </section>
+
+          <section>
+            <img
+              src="./assets/cors_principle.png"
+              style="background-color: red"
+            />
+            <div>
+              소스 번역 파일 파밍 중에 에러 코드가 몇가지 처리 안 되어 있다는
+              부분을 번역하였습니다.
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+    <script src="plugin/chart/plugin.js"></script>
+
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealChart],
+      });
+    </script>
+  </body>
 </html>
